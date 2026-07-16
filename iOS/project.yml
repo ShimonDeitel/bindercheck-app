@@ -39,7 +39,8 @@ targets:
     sources:
       - path: Tests
     dependencies:
-      - target: Bindercheck    settings:
+      - target: Bindercheck
+    settings:
       base:
         GENERATE_INFOPLIST_FILE: "YES"
 
@@ -50,7 +51,8 @@ targets:
     sources:
       - path: UITests
     dependencies:
-      - target: Bindercheck    settings:
+      - target: Bindercheck
+    settings:
       base:
         GENERATE_INFOPLIST_FILE: "YES"
 
