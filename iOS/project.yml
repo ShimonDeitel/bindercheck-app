@@ -29,6 +29,7 @@ targets:
     info:
       path: Bindercheck/Sources/Info.plist
       properties:
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen: {}
         CFBundleDisplayName: Bindercheck
         ITSAppUsesNonExemptEncryption: false
