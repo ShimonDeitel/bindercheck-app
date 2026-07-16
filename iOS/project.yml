@@ -18,7 +18,7 @@ targets:
     platform: iOS
     deploymentTarget: "17.0"
     sources:
-      - path: Sources
+      - path: Bindercheck/Sources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.shimondeitel.bindercheck
@@ -37,7 +37,7 @@ targets:
     platform: iOS
     deploymentTarget: "17.0"
     sources:
-      - path: Tests
+      - path: Bindercheck/Tests
     dependencies:
       - target: Bindercheck
     settings:
@@ -49,7 +49,7 @@ targets:
     platform: iOS
     deploymentTarget: "17.0"
     sources:
-      - path: UITests
+      - path: Bindercheck/UITests
     dependencies:
       - target: Bindercheck
     settings:
