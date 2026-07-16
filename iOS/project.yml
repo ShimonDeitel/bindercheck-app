@@ -22,12 +22,12 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.shimondeitel.bindercheck
-        INFOPLIST_FILE: Sources/Info.plist
+        INFOPLIST_FILE: Bindercheck/Sources/Info.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1"
         DEVELOPMENT_TEAM: W7Q885Q59C
     info:
-      path: Sources/Info.plist
+      path: Bindercheck/Sources/Info.plist
       properties:
         UILaunchScreen: {}
         CFBundleDisplayName: Bindercheck
